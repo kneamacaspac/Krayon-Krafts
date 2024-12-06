@@ -1,0 +1,86 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #F1E8B8; 
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F9E784; 
+    padding: 1rem 1rem;
+    border-radius: 30rem; 
+    box-shadow: .5rem .5rem .2rem rgba(0, 0, 0, 0.1); 
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  
+  .logoname {
+    background-color: #a47845; 
+    color: white;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 1.5rem;
+    font-size: 1.5rem;
+    font-family: "Georgia", serif;
+    box-shadow: .2rem .3rem 0 rgba(0, 0, 0, 0.1);
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .logo-container {
+    display: flex;
+    box-shadow: .2rem .3rem 0 rgba(0, 0, 0, 0.1);
+    border-radius: 1.5rem;
+  }
+  
+  .logo {
+    width: 3rem;
+    height: auto;
+    max-width: 100%;
+  }
+
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 0.5rem;
+    transition: transform 0.3s;
+}
+
+.nav-links a:hover {
+    font-size: 1.7rem; 
+}
+
+
+  .contact-button {
+    background-color: #a47845; 
+    color: white;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 3rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-family: "Georgia", serif;
+    box-shadow: .2rem .3rem 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-button:hover {
+    background-color: #8a6235;
+  }
+  
